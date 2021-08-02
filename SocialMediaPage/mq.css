@@ -1,0 +1,170 @@
+ 
+
+@media (max-width:768px) {
+
+    /* top-bar */
+    #top-bar {
+        justify-content: space-evenly;
+    }
+
+    .top-bar-logo {
+        width: 2.5rem;
+    }
+
+    .notifications-profile-pic {
+        width: 2rem;
+    }
+
+    .notifications-panel-pic {
+        width: 1.5rem;
+    }
+    /* main */
+
+    #main-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+         
+    }
+
+    /* right-bar */
+    .right-side-bar {
+        margin-left: 0;
+        margin-bottom: 2rem;
+        position: unset;
+    }
+
+    .img-ad {
+        width: 52vw;
+    }
+
+    .ad-texts-wrapper {
+        width: 52vw;
+    }
+
+    .hashtags {
+        font-size: 0.8rem;
+    }
+
+    .info-links {
+        font-size: 0.75rem;
+    }
+
+    
+    /* left-bar */
+
+    .left-side-menu {
+        width: 100vw;
+        position: fixed;
+        top: 2.8rem;
+        margin-right: 0;
+        align-items: center;
+        justify-content: center;
+        background-color: #F7F7F6;
+        z-index: 998;
+         
+    }
+
+    .menu-wrapper {
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;   
+    }
+
+    .menu-separator {
+        width: 95vw;     
+    }
+
+    
+    .user-description {
+        display: flex;
+        align-items: center;
+             
+    }
+
+    
+
+    .user-description:nth-child(1), .user-description:nth-child(2) {
+        margin-right: 0.9rem;
+        margin-bottom: 0;
+    }
+
+    /* posts-area */
+
+
+    .posts-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-top: 12.5rem;
+         
+    }
+
+    .post-img, .post-text-wrapper, .post-icons-wrapper { 
+        width: 60vw;         
+    }
+
+    .post-text {
+        font-size: 0.8rem;
+        text-align: left;
+    }
+
+    
+}
+
+@media(max-width:320px) {
+    /* top bar */
+    
+    .top-bar-logo {
+        width: 2rem;
+         
+    }
+    
+    .notifications-profile-pic {
+        width: 1.7rem;
+    }
+
+    .notifications-panel-pic {
+        width: 1.3rem;
+    }
+
+    .search-input {
+        padding: 0;
+        width: 5rem;
+    }
+
+    /* left side-menu */
+
+    .description-text {
+        font-size: 0.8rem;
+    }
+
+    .left-side-menu {
+        top: 2.3rem;
+    }
+
+    /* right-side-menu */
+    .img-ad, .ad-texts-wrapper {
+        width: 57vw;
+    }
+
+    .text-ad {
+        font-size: ;
+    }
+
+    /* posts area */
+    .post-img, .post-text-wrapper, .post-icons-wrapper { 
+        width: 70vw;         
+    }
+
+    .post-icon {
+        width: 0.9rem;
+    }
+    .icon-text {
+        font-size: 0.75rem;
+    }
+
+     
+}
+ 
+ 

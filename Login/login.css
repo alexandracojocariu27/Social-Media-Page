@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ 
+.container-fluid {
+ background: #68AF8E;  
+}
+
+.fa-eye {
+    cursor: pointer;
+}
+
+#icons {
+    font-size: 0.7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.icon {
+    margin-right: 0.25rem;
+}
+
+#signIn {
+    outline: none;
+}
+
+#login-failed {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.logo {
+    width: 2.6rem;
+    height: 2.6rem ;
+    cursor: pointer;
+    background-color: #68AF8E;
+    border-radius: 50%;
+    padding: 0.2rem; 
+    user-select: none;  
+    pointer-events: none; 
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: black;     
+}
+
+.copyright {
+    font-size: 0.85rem;
+}
+.footer-link {
+    color: white;
+    font-size: 0.75rem;
+}
+
+.footer-link:hover {
+    color: #68AF8E;
+}
+
+ 

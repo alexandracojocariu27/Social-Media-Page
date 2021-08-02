@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    
+}
+
+.user-img {
+    width: 3rem;
+    border-radius: 50%;
+}
+
+form{
+    background-color: #07A7FB;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: black;     
+}
+
+.copyright {
+    font-size: 1rem;
+}
+.footer-link {
+    color: white;
+    font-size: 0.9rem;
+}
+
+.footer-link:hover {
+    color: #07A7FB;
+}
+
+.logo {
+    width: 2.8rem;
+    height: 2.8rem ;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+    padding: 0.2rem;    
+}
